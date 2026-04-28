@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -19,6 +18,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -67,8 +67,8 @@
                 </div>
                 <div class="about-stats reveal">
                     <div class="stat-card">
-                        <div class="stat-number">11+</div>
-                        <div class="stat-label">Years in Nuclear Operations</div>
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">100%</div>
@@ -126,22 +126,22 @@
                         <span class="skill-tag">Kotlin</span>
                         <span class="skill-tag">Swift</span>
                         <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
                     </div>
                 </div>
 
                 <div class="skill-category reveal">
-                    <h3 class="skill-category-title">Frameworks & Tools</h3>
+                    <h3 class="skill-category-title">Frameworks</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">ASP.NET</span>
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">Bootstrap</span>
                         <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Vue</span>
                         <span class="skill-tag">NPM</span>
-                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Node</span>
                         <span class="skill-tag">Express</span>
-                        <span class="skill-tag">REST API</span>
-                        <span class="skill-tag">Git/GitHub</span>
                     </div>
                 </div>
 
@@ -154,7 +154,6 @@
                         <span class="skill-tag">Android Studio</span>
                         <span class="skill-tag">Linux (Ubuntu)</span>
                         <span class="skill-tag">PowerShell</span>
-                        <span class="skill-tag">Apache Tomcat</span>
                         <span class="skill-tag">XCode</span>
                     </div>
                 </div>
@@ -167,7 +166,6 @@
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">Figma</span>
                         <span class="skill-tag">Visual Paradigm</span>
-                        <span class="skill-tag">Bruno</span>
                         <span class="skill-tag">Mongoose</span>
                     </div>
                 </div>
@@ -182,6 +180,288 @@
                         <span class="skill-tag">Adaptability</span>
                     </div>
                 </div>
+
+                <div class="skill-category reveal">
+                    <h3 class="skill-category-title">Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Bruno</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Projects</div>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-description">Building practical solutions and expanding my technical expertise</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/restaurant_home_page_small.png" id="resto_home" alt="restaurant_home_page_small"/>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Alchemy Restaurant</h3>
+                        <p class="project-description">
+                            This project is a restaurant reservation management system, with request submission, staff approval workflows, and automated guest notifications.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Java 21</span>
+                            <span class="tech-badge">Spring Boot</span>
+                            <span class="tech-badge">Thymeleaf</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/Restaurant-project" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="#" onclick="alert('Sorry,Live Demo for this project currently unavailable')" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/recipe_home_page_small.png" alt="recipe_home_page_small">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">John McGarnagle</h3>
+                        <p class="project-description">
+                            This project is a recipe-sharing management system with role-based, email-confirmed user accounts for creating and managing recipes, ingredients, categories, images, and moderation/reporting.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">.NET 8.0</span>
+                            <span class="tech-badge">ASP.NET Core</span>
+                            <span class="tech-badge">Entity Framework</span>
+                            <span class="tech-badge">Bootstrap</span>
+
+                            <span class="tech-badge">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/Recipe_project" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="#" onclick="alert('Sorry,Live Demo for this project currently unavailable')" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/dice_guessing_game_small.png" alt="dice_guessing_game_small">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dice Guessing Game</h3>
+                        <p class="project-description">
+                            This project is a real-time multiplayer dice guessing game where players guess the sum of two dice in 10-second rounds, 
+                            with the server broadcasting game state to all connected clients.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/Dice_Game/tree/master" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="#" onclick="alert('Sorry,Live Demo for this project currently unavailable')" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/portfolio_small.png" alt="portfolio_small">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio</h3>
+                        <p class="project-description">
+                            This project is a simple portfolio website built with HTML, CSS, and JavaScript, showcasing my projects, skills, 
+                            and experience in a clean and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/MyPortfolio" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="https://mykolavarfolomiiev.github.io/MyPortfolio/" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project Card 5 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/portfolio_angular_small.png" alt="portfolio_angular_small">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio (Angular)</h3>
+                        <p class="project-description">
+                            This project is another version of my portfolio website built with HTML, CSS, JavaScript, and Angular, showcasing my projects, 
+                            skills, and experience with a modern and responsive design. 
+                            <i>To be working on adding features like animations, adding current projects, and a contact form.</i>
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Angular</span>
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/Portfolio" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="#" onclick="alert('Sorry,Live Demo for this project currently unavailable')" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <img src="images/to_do_small.png" alt="to_do_app_small">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">To-Do App</h3>
+                        <p class="project-description">
+                            This small project is a simple yet effective to-do list application with a clean and intuitive user interface, build with JavaScript, HTML, and CSS, allowing 
+                            users to manage their tasks efficiently. 
+                            <i>To be working on adding features like due dates, and local storage for persistence in future updates.</i>
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MykolaVarfolomiiev/To-do-app" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                View Code
+                            </a>
+                            <a href="#" onclick="alert('Sorry,Live Demo for this project currently unavailable')" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -254,7 +534,7 @@
         </div>
     </footer>
 
-    <script>
+    <!-- <script>
         // Scroll reveal animation
         const reveals = document.querySelectorAll('.reveal');
 
@@ -286,7 +566,7 @@
                 }
             });
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
