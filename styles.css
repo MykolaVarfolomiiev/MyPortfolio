@@ -414,6 +414,11 @@ section {
 }
 
 .skill-tag {
+    
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    
     background: var(--surface-light);
     padding: 0.5rem 1rem;
     border-radius: 6px;
@@ -421,6 +426,13 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
 }
+
+.skill-tag img {
+    font-size: 1em;
+    height: 2em;
+    object-fit: contain;
+}
+
 
 .skill-tag:hover {
     border-color: var(--accent-blue);
