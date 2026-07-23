@@ -79,10 +79,7 @@ nav {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--accent-blue), var(--accent-orange));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--accent-blue);
 }
 
 .nav-links {
@@ -156,10 +153,7 @@ img#profile {
 }
 
 .hero h1 .highlight {
-    background: linear-gradient(135deg, var(--accent-blue), var(--accent-orange));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--accent-blue);
 }
 
 .hero-subtitle {
