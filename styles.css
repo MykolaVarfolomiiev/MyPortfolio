@@ -380,6 +380,64 @@ section {
     color: var(--accent-blue);
 }
 
+/* Certification Section */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background: var(--surface-light);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.cert-image {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: #fff;
+    padding: 4px;
+}
+
+.cert-info {
+    min-width: 0;
+}
+
+.cert-title {
+    font-size: 1rem;
+    margin: 0 0 0.25rem;
+}
+
+.cert-issuer,
+.cert-date {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin: 0.15rem 0;
+}
+
+.cert-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: inherit;
+    text-decoration: underline;
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
