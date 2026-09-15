@@ -152,9 +152,9 @@ img#profile {
     animation: fadeInUp 0.8s ease 0.2s forwards;
 }
 
-.hero h1 .highlight {
+/* .hero h1 .highlight {
     color: var(--accent-blue);
-}
+} */
 
 .hero-subtitle {
     font-size: 1.3rem;
@@ -242,11 +242,11 @@ section {
     text-transform: uppercase;
 }
 
-.section-title {
+/* .section-title {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1rem;
-}
+} */
 
 .section-description {
     color: var(--text-muted);
@@ -471,6 +471,7 @@ section {
 
 .cert-info {
     min-width: 0;
+    margin-bottom: auto;
 }
 
 .cert-title {
@@ -706,6 +707,7 @@ footer p {
 }
 
 /* Responsive */
+/* Tablet */
 @media (max-width: 968px) {
     .hero h1 {
         font-size: 3rem;
@@ -726,8 +728,24 @@ footer p {
     .education-grid {
         grid-template-columns: 1fr;
     }
+
+    .cert-image {
+        width: 50%;
+        height: 50%;
+    }
+
+    .cert-info {
+        text-align: start;
+        margin-bottom: auto;
+    }
+
+    .experience-header {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
+/* Mobile */
 @media (max-width: 500px) {
     .hero h1 {
         font-size: 2.2rem;
@@ -736,9 +754,14 @@ footer p {
     .hero-subtitle {
         font-size: 1.1rem;
     }
+    
+    .btn {
+        width:80%;
+    }
 
     .cta-buttons {
         flex-direction: column;
+        align-items: center;
         gap: 1rem;
     }
 
@@ -746,8 +769,36 @@ footer p {
         display: none;
     }
 
+      .section-label {
+        padding-top: 1em;
+        font-size: 2.5rem;
+    }
+
     .about-stats {
         grid-template-columns: 1fr;
+    }
+
+    .cert-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+    }
+
+    .cert-image {
+    width: 98%;
+    height: 98%;
+    }
+
+    .cert-title {
+        font-size: 2rem;
+        margin: 0 0 0.25rem;
+        text-align: center;
+    }
+
+    .experience-header {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -762,3 +813,22 @@ footer p {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* #buttonUp {
+    background-color: var(--accent-blue);
+    padding: 0.5em;
+    width: 6em;
+    height: 4em;
+    border-radius: 12%;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+    position:fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+}
+
+#buttonUp a {
+    text-decoration: none;
+    color: #000;
+} */
